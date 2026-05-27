@@ -27,7 +27,7 @@ export default function Navbar() {
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center gap-2">
           <Link to="/">
-            <img src="/logo-rodo.png" alt="Logo" className="w-60 h-20 object-contain" />
+            <img src="/logo-rodoeixo.png" alt="Logo" className="w-50 h-16 object-contain" />
           </Link>
         </div>
 

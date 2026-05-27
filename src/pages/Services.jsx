@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Wrench, Zap, PenTool, FileSearch, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Wrench, Zap, PenTool, FileSearch, CheckCircle2, ArrowRight, Cpu } from 'lucide-react';
 
 export default function Services() {
   useEffect(() => {
@@ -11,9 +11,9 @@ export default function Services() {
   const services = [
     {
       icon: <Wrench className="w-10 h-10 text-brand-500" />,
-      title: "Manutenção Corretiva e Preventiva",
-      desc: "Evite paradas inesperadas e prejuízos. Realizamos inspeções rigorosas e reparos eficientes em todo o seu implemento rodoviário para mantê-lo operando com força total.",
-      features: ["Revisão pesada de suspensão", "Troca de lonas e tambores", "Verificação rigorosa de freios"]
+      title: "Manutenção geral",
+      desc: "Realizamos inspeções rigorosas e reparos eficientes em todo o seu implemento rodoviário e equipamentos de mineração para mantê-lo operando com força total.",
+      features: ["Revisão de freios", "Manutenção életrica e pneumatica", "Manutenção em sistemas hidraulicos"]
     },
     {
       icon: <Zap className="w-10 h-10 text-brand-500" />,
@@ -25,13 +25,19 @@ export default function Services() {
       icon: <PenTool className="w-10 h-10 text-brand-500" />,
       title: "Solda e Reparo Estrutural",
       desc: "Reforçamos e reparamos a estrutura de caçambas e chassis com alto rigor e excelência técnica. Seu equipamento volta para a estrada pronto para aguentar cargas severas.",
-      features: ["Solda MIG/MAG de alta resistência", "Alinhamento técnico de chassi", "Recuperação total de caçambas"]
+      features: ["Solda MIG/MAG de alta resistência", "Reformas geral de caçambas", "Desempeno e alinhamento técnico de chasis e caçambas"]
     },
     {
       icon: <FileSearch className="w-10 h-10 text-brand-500" />,
       title: "Garantia Autorizada Rossetti",
       desc: "Somos assistência técnica oficial certificada. Cuidamos do seu equipamento seguindo fielmente todos os manuais, padrões e normas de excelência exigidos pela fábrica.",
       features: ["Peças genuínas Rossetti", "Equipe treinada diretamente pela fábrica", "Atendimento e diagnóstico prioritários"]
+    },
+    {
+      icon: <Cpu className="w-10 h-10 text-brand-500" />,
+      title: "Instalações de dispositivos eletronicos e inclinometros",
+      desc: "Instalamos os melhores e mais modernos dispositivos eletronicos e enclinometros do mercado. Seu equipamento volta para a estrada pronto para aguentar cargas severas.",
+      features: ["Instalação rápida e precisa", "Componentes originais de fábrica", "Atendimento e diagnóstico prioritários"]
     }
   ];
 
@@ -48,12 +54,12 @@ export default function Services() {
             <h1 className="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-tight">Nossos <span className="text-brand-600">Serviços</span></h1>
             <div className="w-20 h-1.5 bg-brand-600 mb-6"></div>
             <p className="text-xl text-slate-300 max-w-2xl font-medium leading-relaxed">
-              Manter a sua frota rodando com a máxima força, segurança e eficiência é a nossa principal especialidade industrial.
+              Manter a sua frota rodando com a máxima força, segurança e eficiência é a nossa principal especialidade.
             </p>
           </div>
           <div className="md:w-1/3 flex justify-start md:justify-end">
             <a href={whatsappLink} target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 font-black uppercase tracking-wider transition-colors shadow-2xl">
-              Agendar Revisão
+              Agendar Manutenção
               <ArrowRight className="w-5 h-5" />
             </a>
           </div>

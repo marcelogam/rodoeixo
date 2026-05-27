@@ -11,14 +11,14 @@ export default function About() {
       {/* Header Industrial */}
       <section className="bg-slate-900 py-20 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop" alt="Fábrica" className="w-full h-full object-cover opacity-20 grayscale" />
+          <img src="/historia.png" alt="Fábrica" className="w-full h-full object-cover object-top opacity-20 grayscale" />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900 to-transparent"></div>
         </div>
         <div className="container-custom relative z-10">
           <h1 className="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-tight">Nossa <span className="text-brand-600">História</span></h1>
           <div className="w-20 h-1.5 bg-brand-600 mb-6"></div>
           <p className="text-xl text-slate-300 max-w-2xl leading-relaxed font-medium">
-            Conheça mais sobre a Rodoeixo e nosso compromisso inegociável de entregar excelência e força em implementos rodoviários.
+            Sua frota em movimento e com a força máxima. Descubra como a Rodoeixo se tornou referência em manutenção e vendas de peças autorizada ROSSETTI.
           </p>
         </div>
       </section>
@@ -29,12 +29,12 @@ export default function About() {
           <div className="flex flex-col lg:flex-row gap-16 items-start">
             <div className="lg:w-1/2">
               <h2 className="text-brand-600 font-bold uppercase tracking-widest mb-2 flex items-center gap-2">
-                 <span className="w-8 h-1 bg-brand-600 inline-block"></span>
-                 Sobre a Empresa
+                <span className="w-8 h-1 bg-brand-600 inline-block"></span>
+                Sobre a Empresa
               </h2>
               <h3 className="text-4xl md:text-5xl font-black text-slate-900 uppercase tracking-tight mb-8">Tradição e Garantia Autorizada</h3>
               <p className="text-slate-600 text-lg leading-relaxed mb-6 font-medium">
-                Somos uma empresa com sólida presença e anos de experiência no mercado de equipamentos rodoviários. Nascemos com um objetivo claro: <strong className="text-slate-900">garantir a produtividade e a segurança</strong> do transporte de carga de cada um de nossos clientes.
+                Somos uma empresa com sólida presença e anos de experiência no mercado de manutenção e venda de peças . Nascemos com um objetivo claro: <strong className="text-slate-900">garantir a produtividade e a segurança</strong> do transporte de carga de cada um de nossos clientes.
               </p>
               <p className="text-slate-600 text-lg leading-relaxed mb-8 font-medium">
                 Nosso grande diferencial é atuar com foco no serviço de excelência, juntamente com a nossa <strong className="text-slate-900">garantia autorizada Rossetti</strong>. Ter o respaldo de uma marca líder nos permite proporcionar peças genuínas, manutenções rigorosas e uma experiência inigualável no mercado.
@@ -62,7 +62,7 @@ export default function About() {
             </div>
             <div className="lg:w-1/2 relative w-full hidden md:block">
               <div className="absolute -inset-4 border-4 border-slate-100 transform translate-x-8 translate-y-8 z-0"></div>
-              <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop" alt="Trabalho na oficina" className="relative z-10 shadow-2xl w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+              <img src="/tradicao.png" alt="Trabalho na oficina" className="relative z-10 shadow-2xl w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-700" />
             </div>
           </div>
         </div>
@@ -74,8 +74,8 @@ export default function About() {
         <div className="container-custom relative z-10">
           <div className="mb-16 border-b-2 border-slate-700 pb-8">
             <h2 className="text-brand-500 font-bold uppercase tracking-widest mb-2 flex items-center gap-2">
-                 <span className="w-8 h-1 bg-brand-600 inline-block"></span>
-                 Nossos Pilares
+              <span className="w-8 h-1 bg-brand-600 inline-block"></span>
+              Nossos Pilares
             </h2>
             <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight">O Que Nos Move Todos os Dias</h3>
           </div>

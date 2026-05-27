@@ -10,34 +10,49 @@ export default function Parts() {
 
   const partsList = [
     {
-      name: "Cilindros Hidráulicos",
-      desc: "Ampla linha de cilindros para basculantes, com alta durabilidade e resistência para operações severas.",
-      img: "https://images.unsplash.com/photo-1587302488874-9b2752bb05b3?q=80&w=2070&auto=format&fit=crop"
+      name: "Filtro de óleo",
+      desc: "Filtros hidráulicos de alta eficiência para basculantes, projetados para reter impurezas e prolongar a vida útil do óleo em condições extremas.",
+      img: "/filtro-oleo.jpeg"
     },
     {
-      name: "Tomadas de Força",
-      desc: "Soluções robustas para transmissão de potência mecânica, compatíveis com os principais câmbios do mercado.",
-      img: "https://images.unsplash.com/photo-1563820246237-7f91ecbdbaaa?q=80&w=2070&auto=format&fit=crop"
+      name: "Adesivos e placas",
+      desc: "Placas de sinalização e faixas refletivas completas em conformidade com as normas rodoviárias, garantindo visibilidade e segurança para a sua frota.",
+      img: "/adesivos-placas.jpeg"
     },
     {
       name: "Bombas Hidráulicas",
-      desc: "Alto desempenho no fluxo de óleo para sistemas hidráulicos, garantindo elevação rápida e segura.",
-      img: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=2069&auto=format&fit=crop"
+      desc: "Bombas hidráulicas de alto desempenho e vazão otimizada, garantindo acionamento ágil, eficiente e de alta pressão para basculamentos seguros.",
+      img: "/bomba-hidraulica.jpeg"
     },
     {
-      name: "Comandos e Válvulas",
-      desc: "Controle preciso direcional e de pressão para garantir a segurança e eficiência do seu implemento.",
-      img: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2070&auto=format&fit=crop"
+      name: "Filtro de ar",
+      desc: "Elementos filtrantes de alta retenção que impedem a entrada de poeira e partículas nocivas nos sistemas pneumáticos e no motor do veículo.",
+      img: "/filtro-ar.jpeg"
     },
     {
-      name: "Kit Hidráulico Completo",
-      desc: "Instalação completa com componentes originais para transformar o seu cavalo mecânico.",
-      img: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop"
+      name: "Válvula fim de curso",
+      desc: "Dispositivo mecânico ou pneumático essencial que limita a elevação do basculante no ponto correto, prevenindo sobrepressões e avarias.",
+      img: "/valvula-fim-de-curso.jpeg"
     },
     {
-      name: "Acessórios Originais",
-      desc: "Faróis, faixas refletivas, para-barros e demais itens de segurança para as normas rodoviárias.",
-      img: "https://images.unsplash.com/photo-1620021666012-70b12bc1b29a?q=80&w=2070&auto=format&fit=crop"
+      name: "Sensores comlink e DNP",
+      desc: "Tecnologia de inclinômetro e segurança eletrônica avançada, essencial para monitorar o basculamento conforme a legislação vigente.",
+      img: "/sensores.jpeg"
+    },
+    {
+      name: "Haste",
+      desc: "Hastes cromadas de precisão para cilindros hidráulicos telescópicos, retificadas para alta performance e suporte a cargas elevadas.",
+      img: "/haste.jpeg"
+    },
+    {
+      name: "Lanternas",
+      desc: "Lanternas traseiras e de posição em LED resistentes à vibração e à água, garantindo excelente sinalização e segurança noturna.",
+      img: "/lanternas.jpeg"
+    },
+    {
+      name: "Comando",
+      desc: "Blocos de comando hidráulico direcional com controle proporcional, garantindo movimentos suaves e precisos da caçamba basculante.",
+      img: "/comando.jpeg"
     }
   ];
 
@@ -65,7 +80,7 @@ export default function Parts() {
             {partsList.map((part, index) => (
               <div key={index} className="bg-white group relative shadow-lg hover:shadow-2xl transition-all duration-300 border-b-4 border-transparent hover:border-brand-600 flex flex-col">
                 <div className="h-56 overflow-hidden relative bg-slate-900">
-                  <img src={part.img} alt={part.name} className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" />
+                  <img src={part.img} alt={part.name} className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" />
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <h3 className="text-2xl font-black text-slate-900 uppercase tracking-tight mb-4">{part.name}</h3>
